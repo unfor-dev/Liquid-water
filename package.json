@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "eject": "react-scripts eject",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts test"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+  "dependencies": {
+    "@react-three/drei": "9.80.9",
+    "@react-three/fiber": "8.13.7",
+    "@types/three": "0.155.1",
+    "leva": "^0.10.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.10.1",
+    "react-scripts": "5.0.1",
+    "three": "0.151.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [
+    "annotations",
+    "html",
+    "markers"
+  ]
+}
