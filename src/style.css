@@ -12,5 +12,29 @@ body,
 
 #root {
   font-family: inter;
-  background: #28b9d2;
+  background: #b59db9;
+}
+.leva-c-kWgxhW {
+  left: 10px !important;
+  right: auto !important;
+  top: 60px !important;
+}
+#musicButton {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 10;
+    padding: 10px 16px;
+    border: 2px solid rgb(105, 105, 105);
+    background: transparent;
+    color: rgb(254, 254, 255);
+    background-color: rgba(67, 68, 75, 0.481);
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#musicButton:hover {
+    background-color: transparent;
 }
